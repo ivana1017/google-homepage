@@ -1,0 +1,65 @@
+/*-----------------------------------------------
+*   Base
+-----------------------------------------------*/
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+
+/*-----------------------------------------------
+*   Navigation
+-----------------------------------------------*/
+nav {
+  float: right;
+  margin: 1em 0;
+}
+
+.nav {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+.nav li {
+	display: inline-block;
+	margin-left: 1em;
+}
+
+.nav:last-child {
+	margin-right: 1.8em;
+}
+
+.nav a {
+	color: #444;
+	font-weight: lighter;
+	font-size: .8em;
+	text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+#sign-in {
+	background-color: #4285F4;
+	border: .2em solid #4285F4;
+	border-radius: .25em;
+	color: #FFF;
+	font-size: .8em;
+	font-weight: bold;
+	padding: .6em 1em;
+}
+
+/*-----------------------------------------------
+*   Main
+-----------------------------------------------*/
+main {
+	clear: right;
+}
+
+/*-----------------------------------------------
+*   Footer
+-----------------------------------------------*/
+
+
+
