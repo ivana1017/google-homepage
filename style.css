@@ -50,12 +50,54 @@ nav {
 	padding: .6em 1em;
 }
 
+#sign-in:focus {
+	outline: none;
+}
+
 /*-----------------------------------------------
 *   Main
 -----------------------------------------------*/
 main {
 	clear: right;
+	margin: 0 auto;
+	text-align: center;
+	padding: 8em 0;
 }
+
+/*-----------------------------------------------
+*   Search Form
+-----------------------------------------------*/
+
+.form-btn {
+	background-color: #F2F2F2;
+	border: .025em solid #F2F2F2;
+	border-radius: .175em;
+	color: #757575;
+	font-size: .8em;
+	font-weight: bold;
+	margin: 0 .25em;
+	padding: .9em 1.2em;
+}
+
+.form-btn:hover {
+	background-color: #F8F8F8;
+	border: .025em solid #C6C6C6;
+	color: #222;
+}
+
+input[type=search]{
+	border: .025em solid #D9D9D9;
+	border-radius: 0;
+	height: 2.5em;
+	margin: 2em 0;
+	width: 37em;
+}
+
+input:focus, button:focus {
+  border: .025em solid #FFF;
+	outline: .025em solid #4285F4;
+}
+
 
 /*-----------------------------------------------
 *   Footer
