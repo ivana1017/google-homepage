@@ -1,9 +1,23 @@
 /*-----------------------------------------------
 *   Base
 -----------------------------------------------*/
+html {
+	height: 100%;
+}
+
 body {
+	height: 100%;
 	font-family: Helvetica, Arial, sans-serif;
 	margin: 0;
+}
+
+a {
+	font-size: .8em;
+	text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /*-----------------------------------------------
@@ -32,12 +46,6 @@ nav {
 .nav a {
 	color: #444;
 	font-weight: lighter;
-	font-size: .8em;
-	text-decoration: none;
-}
-
-.nav a:hover {
-  text-decoration: underline;
 }
 
 #sign-in {
@@ -89,19 +97,53 @@ input[type=search]{
 	border: .025em solid #D9D9D9;
 	border-radius: 0;
 	height: 2.5em;
-	margin: 2em 0;
-	width: 37em;
+	margin: 1.75em 0;
+	padding: .75em;
+	width: 33em;
 }
 
 input:focus, button:focus {
   border: .025em solid #FFF;
+  border-radius: 0;
 	outline: .025em solid #4285F4;
 }
-
 
 /*-----------------------------------------------
 *   Footer
 -----------------------------------------------*/
+
+footer {
+	background-color: #F2F2F2;
+	border-top: .025em solid #D9D9D9;
+	padding: 1em;
+	position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.footer {
+	margin: 0;
+	padding: 0;
+}
+
+.lt-lnks {
+	float: left;
+}
+
+.rt-lnks {
+	float: right;
+}
+
+.footer li{
+  display: inline-block;
+  padding-right: 1em;
+}
+
+.footer a {
+	color: #757575;
+}
+
 
 
 
